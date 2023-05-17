@@ -1,0 +1,12 @@
+SIZE 400 100   #Nx Ny
+TIME 1000  #Nt
+PLOTNTH 10 #plotEveryNth
+RHO0 100   #rho0
+TAU 0.6    #tau
+FLOWDIR 5  #flowDirection
+PLOTTYPE Speed #plotType
+#COLORMAP viridis to be implemented
+PLOTREALTIME True  #plotRealtime
+FILENAME LBM.png   #fileName
+
+CYLINDER 8 (150,50)	#radius PosX PosY
